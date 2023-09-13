@@ -65,17 +65,17 @@ body {
 
 
 
-.disk.play{
+.disk.play {
     animation-play-state: running;
 }
 
 
-@keyframes rotate{
-    0%{
+@keyframes rotate {
+    0% {
         transform: rotate(0);
     }
 
-    100%{
+    100% {
         transform: rotate(360deg);
     }
 }
@@ -113,20 +113,20 @@ body {
 
 
 .current-time,
-.song-duration{
-font-size: 14px;
+.song-duration {
+    font-size: 14px;
 }
 
 
 
-.song-duration{
+.song-duration {
     position: absolute;
     right: 0;
 
 }
 
 
-.controls{
+.controls {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -136,7 +136,7 @@ font-size: 14px;
 }
 
 
-.play-btn{
+.play-btn {
 
     position: relative;
     width: 50px;
@@ -151,34 +151,35 @@ font-size: 14px;
 
 
 
-.play-btn span i{
+.play-btn span i {
     font-size: 24px;
 }
 
 
-.play-btn.pause{
+.play-btn.play {
     animation: pulse 2s linear infinite;
 }
-@keyframes pulse{
-    0%{
+
+@keyframes pulse {
+    0% {
         box-shadow: 0;
     }
 
 
-    50%{
+    50% {
         box-shadow: 0 0 0 5px #b84e8575;
     }
 
-    100%{
+    100% {
         box-shadow: 0 0 0 5px#726868;
     }
-    
+
 
 }
 
 
 
-.btn{
+.btn {
     width: 40px;
     height: 40px;
     background: #f53192;
@@ -191,5 +192,3 @@ font-size: 14px;
     border: none;
     cursor: pointer;
 }
-
-

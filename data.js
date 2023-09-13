@@ -11,6 +11,7 @@ let songs = [
         artist: 'Daniel Levi',
         cover: 'images/on.jpg'
     },
+ 
 
     {
         name: ' Ram Siya Ram',
@@ -24,9 +25,12 @@ let songs = [
         artist: 'Kamal Kahlon and Param Singh',
         cover: 'images/daru badnam.jpg'
     },
-
-
-
-
+    {
+        name: 'Ban Meri Rani',
+        path: 'musics/ban-rani.mp3',
+        artist: 'Guru Randhawa',
+        cover: 'images/ban ja tu rani.jpg'
+    },
+  
 ]
 
